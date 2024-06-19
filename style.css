@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+body {
+  background-image: linear-gradient(to right, #8a53c4, #7736bc, #430e80);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.game {
+  height: 80vh;
+  width: 63vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.first-div {
+  width: 60vh;
+  height: 15vh;
+  background-color: white;
+  border-radius: 7px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 10px;
+}
+.input-field {
+  width: 34vh;
+  height: 6vh;
+  padding-left: 9px;
+  font-size: 14px;
+}
+.add-btn {
+  height: 6vh;
+  width: 12vh;
+  background-color: #7842ec;
+}
+button {
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+input {
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+input:focus {
+  outline: 1px solid blue;
+}
+ul {
+  width: 60vh;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px auto;
+  height: 45vh;
+  padding: 20px 27px 0px 20px;
+}
+ul li {
+  list-style: none;
+  user-select: none;
+  cursor: pointer;
+  padding: 20px 0px 12px 0;
+  border: 1px solid black;
+  border-width: 0 0 1px;
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+}
+ul li.checked {
+  text-decoration: line-through;
+  color: rgb(117, 114, 114);
+}
+button:hover {
+  background-color: #895de8;
+}
+ul li span {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  right: 0;
+  bottom: 7px;
+  font-size: 21px;
+  padding-left: 7px;
+}
+ul li span:hover {
+  background-color: rgb(190, 190, 190);
+}
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 65px;
+}
