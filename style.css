@@ -158,4 +158,14 @@ h1 {
   .container {
     margin-top: 45px;
   }
+  .input-field {
+    padding: 12px 0px 12px 10px;
+  }
+  button {
+    padding: 12px 18px;
+  }
+  ul li {
+    font-size: 15px;
+  }
 }
+
